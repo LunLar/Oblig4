@@ -14,13 +14,13 @@
     <body>
 
         <header>
-            <h1>Nettside om Lars Henrik</h1>
+            <h1>Lars Henrik</h1>
 
             <div class="topnav">
         
-                <a href="{{ url_for ('Hjem')}}">Hjem</a>
-                <a href="{{ url_for ('Om_meg')}}">Om meg</a>
-                <a href="{{ url_for ('Python_Flask')}}">Python/Flask</a>
+                <a href="{{ url_for ('Hjem')}}" class="{{ 'active' if active_page == 'Hjem' else '' }}">Hjem</a>
+                <a href="{{ url_for ('Om_meg')}}" class="{{ 'active' if active_page == 'Om_meg' else '' }}">Om meg</a>
+                <a href="{{ url_for ('Python_Flask')}}" class="{{ 'active' if active_page == 'Python_Flask' else '' }}">Python/Flask</a>
                 
             </div>
         
