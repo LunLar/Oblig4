@@ -6,8 +6,6 @@
     overflow: hidden;
 }
 
-
-
 .topnav a {
     color: antiquewhite;
     text-align: center;
@@ -22,12 +20,23 @@
     color: black;
 }
 
-.topnav a:active {
+.topnav a.active {
     background-color: beige;
-    color: white;
+    color: black;
 
 }
 
+
+
+
+.title {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+}
 
 
 
