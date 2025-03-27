@@ -5,6 +5,7 @@
 
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="static/main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lars Henrik</title>
         
@@ -14,6 +15,14 @@
 
         <header>
             <h1>Nettside om Lars Henrik</h1>
+
+            <div class="topnav">
+        
+                <a href="{{ url_for ('Hjem')}}">Hjem</a>
+                <a href="{{ url_for ('Om_meg')}}">Om meg</a>
+                <a href="{{ url_for ('Python_Flask')}}">Python/Flask</a>
+                
+            </div>
         
         </header>
         
